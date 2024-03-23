@@ -1,3 +1,3 @@
 import Farrix
 
-Farrix.start_server()
+Farrix.start_server("yuh")
