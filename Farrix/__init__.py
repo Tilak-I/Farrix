@@ -1,5 +1,3 @@
-# __init__.py
-
 from .data_loader import DataLoader
 from .model import Model
 from .linear_regression import LinearRegression
@@ -9,7 +7,7 @@ from .visualization import Visualization
 from .tuner import HyperparameterTuner
 from .utils import Utils
 
-#Allows users to designate imports and allows for 'from Farrix import *' to import everything
+# Allows users to designate imports and allows for 'from Farrix import *' to import everything
 
 __all__ = [
     'DataLoader',

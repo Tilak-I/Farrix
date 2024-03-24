@@ -1,4 +1,4 @@
-from Model import Model
+from .model import Model
 from sklearn.tree import DecisionTreeClassifier as SkDecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 

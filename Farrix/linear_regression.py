@@ -1,4 +1,4 @@
-from model import Model
+from .model import Model
 from sklearn.linear_model import LinearRegression as SkLinearRegression
 from sklearn.metrics import mean_squared_error
 
