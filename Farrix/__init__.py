@@ -7,7 +7,13 @@ from .visualization import Visualization
 from .tuner import HyperparameterTuner
 from .utils import Utils
 
+import pandas as pd
 # Allows users to designate imports and allows for 'from Farrix import *' to import everything
+
+
+class DataSet(pd.DataFrame):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
 __all__ = [
     'DataLoader',
